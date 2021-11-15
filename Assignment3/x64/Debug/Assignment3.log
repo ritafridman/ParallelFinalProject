@@ -1,0 +1,121 @@
+﻿  
+  C:\Users\cudauser\Desktop\ParallelFinalProject_ID312672942\MPI+OMP+CUDA\Assignment3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\cudauser\Desktop\ParallelFinalProject_ID312672942\MPI+OMP+CUDA\Assignment3\kernel.cu" -clean 
+  kernel.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Assignment3.vcxproj, Cuda_With_MPI_OMP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\cudauser\Desktop\ParallelFinalProject_ID312672942\MPI+OMP+CUDA\Assignment3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\cudauser\Desktop\ParallelFinalProject_ID312672942\MPI+OMP+CUDA\Assignment3\kernel.cu" 
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+C:/Users/cudauser/Desktop/ParallelFinalProject_ID312672942/MPI+OMP+CUDA/Assignment3/kernel.cu(136): warning : transfer of control bypasses initialization of:
+C:/Users/cudauser/Desktop/ParallelFinalProject_ID312672942/MPI+OMP+CUDA/Assignment3/kernel.cu(143): warning : transfer of control bypasses initialization of:
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+C:/Users/cudauser/Desktop/ParallelFinalProject_ID312672942/MPI+OMP+CUDA/Assignment3/kernel.cu(136): warning : transfer of control bypasses initialization of:
+C:/Users/cudauser/Desktop/ParallelFinalProject_ID312672942/MPI+OMP+CUDA/Assignment3/kernel.cu(143): warning : transfer of control bypasses initialization of:
+  kernel.cu
+  basicFunctions.cpp
+  PerceptronAlgorithm.cpp
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\perceptronalgorithm.cpp(52): warning C4101: 'cudaStatus': unreferenced local variable
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\perceptronalgorithm.cpp(110): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(117): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(127): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(134): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(141): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(142): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(143): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(146): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(151): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(165): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(171): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(174): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(203): warning C4101: 'o': unreferenced local variable
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(221): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+c:\users\cudauser\desktop\parallelfinalproject_id312672942\mpi+omp+cuda\assignment3\main.cpp(93): warning C4700: uninitialized local variable 'cudaStatus' used
+  Assignment3.vcxproj -> C:\Users\cudauser\Desktop\ParallelFinalProject_ID312672942\MPI+OMP+CUDA\x64\Debug\ParallelFinalProject_ID312672942.exe
+  Assignment3.vcxproj -> C:\Users\cudauser\Desktop\ParallelFinalProject_ID312672942\MPI+OMP+CUDA\x64\Debug\ParallelFinalProject_ID312672942.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\Users\cudauser\Desktop\ParallelFinalProject_ID312672942\MPI+OMP+CUDA\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 file(s) copied.
